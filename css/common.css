@@ -116,7 +116,7 @@ svg,
   min-height: 79px;
   top: 0;
 
-  z-index: 2;
+  z-index: 1;
 }
 
 .header-logo-studio {
@@ -282,6 +282,7 @@ address {
   fill: white;
 }
 
-.footer-social-network-link:hover {
+.footer-social-network-link:hover,
+.footer-social-network-link:focus {
   background-color: var(--hover-color);
 }
